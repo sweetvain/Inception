@@ -1,0 +1,18 @@
+# Secrets et identifiants (ne jamais pousser)
+srcs/.env
+.env
+secrets/
+*.key
+*.pem
+*.crt
+
+# Données des volumes
+data/
+
+# Éditeurs et système
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.DS_Store
